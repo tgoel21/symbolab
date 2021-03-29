@@ -1,0 +1,44 @@
+{
+	"title": "כפל שברים אלגבריים"
+
+	,"default_problem_title" : "כפלו את השברים הבאים, צמצמו במידת האפשר:"
+	,"latex_buttons" : "fraction power power2"
+
+	,"problems": [
+
+		{
+			"instruction" : "simplify"
+			,"latex" : "\\frac{x^2+[2*A]x+[A^2]}{[B]x^3}\\cdot \\frac{[B^2]x^4}{x^2+[A]x}"
+			,"vars" : {
+				"A" : [1, 10]
+				,"B" : [2, 5]
+			}
+			,"samples" : 20
+		}
+	
+		
+		,{
+			"instruction" : "simplify"
+			,"latex" : "\\frac{[2*A]x+[A]}{[A]x^2-[A*B]x}\\cdot \\frac{x^2+[C-B]x-[B*C]}{5x+[5*C]}"
+			,"vars" : {
+				"A" : [1, 10]
+				,"B" : [2, 5]
+				,"C" : [6, 10]
+			}
+			,"samples" : 20
+		}
+
+
+		,{
+			"instruction" : "simplify"
+			,"latex" : "\\frac{x^2+[2*A]x+[A^2]}{[A^2]-x^2}\\cdot \\frac{[A]x^2-x^3}{x^2+[A-B]x-[A*B]}"
+			,"vars" : {
+				"A" : [6, 10]
+				,"B" : [2, 5]
+			}
+			,"samples" : 10
+		}
+
+		
+	]
+}
